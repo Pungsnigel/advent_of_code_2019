@@ -1,10 +1,10 @@
 #!/usr/bin/env ruby
 require 'benchmark'
 
-SOLVED_DAYS = (1..1).freeze
+SOLVED_DAYS = (1..2).freeze
 
 SOLVED_DAYS.each do |day|
-  require_relative "solutions/#{day}"
+  require_relative "solutions/day_#{day}"
 end
 
 solution = nil
