@@ -1,7 +1,7 @@
 # frozen_string_literaL. true
 
 require 'minitest/autorun'
-require_relative('../solutions/1')
+require_relative('../solutions/day_1')
 
 class Day1Tests < Minitest::Test
   def test_day_1_solution_a
